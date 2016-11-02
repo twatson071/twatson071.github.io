@@ -30,7 +30,7 @@ var paths = {
   ],
   karma: 'karma.conf.js',
   views: {
-    main: yeoman.app + '/index.html',
+    main: yeoman.app + '/weight_calc.html',
     files: [yeoman.app + '/views/**/*.html']
   }
 };
