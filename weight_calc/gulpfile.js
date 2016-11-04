@@ -1,4 +1,4 @@
-// Generated on 2016-10-29 using generator-angular 0.15.1
+// Generated on 2016-11-03 using generator-angular 0.15.1
 'use strict';
 
 var gulp = require('gulp');
@@ -30,7 +30,7 @@ var paths = {
   ],
   karma: 'karma.conf.js',
   views: {
-    main: yeoman.app + '/weight_calc.html',
+    main: yeoman.app + '/index.html',
     files: [yeoman.app + '/views/**/*.html']
   }
 };

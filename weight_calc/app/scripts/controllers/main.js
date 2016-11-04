@@ -15,16 +15,3 @@ angular.module('weightCalculatorApp')
       'Karma'
     ];
   });
-
-/**
- * @ngdoc function
- * name WeightControl.controller:WeightCtrl
- * @description
- * # Weightctrl
- * Controller to do the weight calculations
- */
-angular.module('weightCalculatorApp')
-  .controller('weightCtrl', function($scope) {
-
-$scope.formModel = {};
-});
