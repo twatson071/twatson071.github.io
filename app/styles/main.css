@@ -7,6 +7,7 @@
 
 body {
   padding: 0;
+  color: #c6c1c1;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -16,11 +17,27 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.navbar{
+  background-color: #7f7979;
+  border-color: #7f7979;
+  text-decoration-color: #ddbc44;
+  color: #FFFFFF;
+}
+.navbar-default .navbar-brand{
+  color: #ffffff;
+}
+.navbar-nav{
+  color: #ffffff
+}
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: #968F8F;
+  color: #FFFFFF;
+}
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
+  background-color: #dd6044;
+  padding-bottom: 20px;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -32,19 +49,60 @@ body {
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+color: #ffffff;
+  min-width: 100%;
 }
 
 .container-narrow > hr {
   margin: 30px 0;
 }
+.btn-success{
+  background-color: #39304A;
+  border-color: #39304A;
+}
+.btn-success:hover
+{
+  background-color: #39304A;
+  border-color: #39304A;
+}
+.btn-success:active
+{
+  background-color: #39304A;
+  border-color: #39304A;
+}
+.btn-success:focus,
+.btn-success.focus {
+  background-color: #39304A;
+  border-color: #39304A;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  background-color: #39304A;
+  border-color: #39304A;
+}
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  background-color: #39304A;
+  border-color: #39304A;
+}
+.navbar-default .navbar-nav > li > a{
+  color: #FFFFFF;
+}
 
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 10px solid #dd6044;
+  background-color: #dd6044;
+  padding-bottom: 20px;
 }
 .jumbotron .btn {
   font-size: 21px;
@@ -71,6 +129,7 @@ body {
   .footer {
     padding-left: 0;
     padding-right: 0;
+    background-color: #dd6044;
   }
   /* Space out the masthead */
   .header {
@@ -79,5 +138,20 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+  .carousel{
+    margin:0 auto;
+    width: 1000px;
+  }
+  .carousel-inner{
+    margin:0 auto;
+    width: 100%;
+    height: 400px !important;
+    vertical-align: middle;
+  }
+  .carousel-control{
+    max-height: 100% !important;
+    width: 50px;
+    background-color: #ad3e3c;
   }
 }
