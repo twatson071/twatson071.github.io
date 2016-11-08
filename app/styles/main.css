@@ -18,28 +18,22 @@ body {
 .footer {
   padding-left: 15px;
   padding-right: 15px;
+  background-color: #ff8a65;
+  border-bottom: 20px;
+  border-color: #dd6044;
 }
-.navbar{
-  background-color: #e64a19;
-  border-color: rgba(0,0,0, 0);
-  text-decoration-color: #ddbc44;
-  color: #FFFFFF;
+/* Remove the padding we set earlier */
+.header,
+.marketing,
+.footer {
+  padding-left: 0;
+  padding-right: 0;
 
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color: #39304A;
-  color: #ffffff;
-}
-.navbar-default .navbar-brand{
-  color: #ffffff;
-}
-.navbar-nav{
-  color: #ffffff
-}
+/* Space out the masthead */
+.header {
+  margin-bottom: 30px;
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  background-color: #968F8F;
-  color: #FFFFFF;
 }
 /* Custom page header */
 .header {
@@ -72,6 +66,13 @@ body {
 
 .container-narrow > hr {
   margin: 30px 0;
+}
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
 }
 .btn-success{
   background-color: #39304A;
@@ -110,6 +111,30 @@ body {
   background-color: #39304A;
   border-color: #39304A;
 }
+.navbar{
+  background-color: #e64a19;
+  border-color: rgba(0,0,0, 0);
+  text-decoration-color: #ddbc44;
+  color: #FFFFFF;
+
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #39304A;
+  color: #ffffff;
+}
+.navbar-default .navbar-brand{
+  color: #ffffff;
+}
+.navbar-nav{
+  color: #ffffff
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: #968F8F;
+  color: #FFFFFF;
+}
+
+
 .navbar-default .navbar-nav > li > a{
   color: #FFFFFF;
 }
@@ -132,13 +157,7 @@ body {
   padding: 14px 24px;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -146,21 +165,7 @@ body {
     max-width: 730px;
   }
 
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-    background-color: #ff8a65;
-    border-bottom: 20px;
-    border-color: #dd6044;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
 
-  }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
