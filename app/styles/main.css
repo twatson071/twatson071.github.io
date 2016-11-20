@@ -30,11 +30,7 @@ body {
   padding-right: 0;
 
 }
-/* Space out the masthead */
-.header {
-  margin-bottom: 30px;
 
-}
 /* Custom page header */
 .header {
   background: url(../images/DSC00569.jpg) no-repeat center center fixed;
@@ -58,8 +54,9 @@ body {
   width: 100%;
   padding: 100px 0;
 }
-.row {
-  background-color: #90A4ae;
+.col-sm-4
+{
+  z-index: 10000;
 }
 
 .container-narrow > hr {
@@ -168,6 +165,8 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 730px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   /* Responsive: Portrait tablets and up */
   @media screen and (min-width: 768px) {
