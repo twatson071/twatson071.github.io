@@ -27,8 +27,13 @@ angular
         controllerAs: 'main'
       })
       .when('/about', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
+        controllerAs: 'about'
+      })
+      .when('/resume', {
+        templateUrl: 'views/main.html',
+        controller: 'ResumeCtrl',
         controllerAs: 'about'
       })
       .otherwise({

@@ -2,17 +2,16 @@
 
 /**
  * @ngdoc function
- * @name twatson071githubioApp.controller:MainCtrl
+ * @name twatson071githubioApp.controller:AboutCtrl
  * @description
- * # MainCtrl
+ * # AboutCtrl
  * Controller of the twatson071githubioApp
  */
 angular.module('twatson071githubioApp')
-  .controller('MainCtrl', function () {
+  .controller('ResumeCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
   });
-

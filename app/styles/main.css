@@ -6,7 +6,6 @@
 }
 
 body {
-  padding: 0;
   color: #ffffff;
   background-color: #607D8B;
 }
@@ -38,6 +37,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: 1000;
   height: 100vh;
 }
 /* Make the masthead heading the same height as the navigation */
@@ -53,10 +53,6 @@ body {
   color: #ffffff;
   width: 100%;
   padding: 100px 0;
-}
-.col-sm-4
-{
-  z-index: 10000;
 }
 
 .container-narrow > hr {
@@ -114,11 +110,10 @@ body {
   border-color: #FFFFFF;
 }
 .navbar{
-  background-color: transparent;
   border-color: rgba(0,0,0, 0);
   text-decoration-color: #ddbc44;
   color: #FFFFFF;
-
+  background-color:transparent;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: #F64747;
@@ -167,6 +162,7 @@ body {
     max-width: 730px;
     margin-top: 20px;
     margin-bottom: 20px;
+    z-index: 1000;
   }
   /* Responsive: Portrait tablets and up */
   @media screen and (min-width: 768px) {
@@ -175,6 +171,10 @@ body {
       padding: 20px 0px;
       background-color: rgba(246, 71, 71, .4);
     }
+  }
+  .container-full{
+    width: 100%;
+    background-color: rgba(246, 71, 71, .4);
   }
 
 
