@@ -154,7 +154,9 @@ body {
   padding: 14px 24px;
 }
 
-
+.padding-top-lg {
+  padding-top: 50px;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -177,6 +179,30 @@ body {
     background-color: rgba(246, 71, 71, .4);
   }
 
+  /*list color */
+  .list-group-item{
+    color: #FFFFFF;
+    background-color: rgba(0,0,0, 0);
+
+  }
+  .list-group{
+    background-color: rgba(0,0,0, 0);
+  }
+.content-left{
+  border-left: 1px solid #FFFFFF;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  clear:both;
+}
+.float-right{
+    float: right;
+    vertical-align: middle;
+    margin: 0 0 10px 10px;
+}
+.float-left{
+    float: left;
+    margin: 0 0 10px 10px;
+}
 
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
