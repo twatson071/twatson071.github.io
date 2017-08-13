@@ -31,9 +31,9 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
-      .when('/resume', {
-        templateUrl: 'views/main.html',
-        controller: 'ResumeCtrl',
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
         controllerAs: 'about'
       })
       .otherwise({
