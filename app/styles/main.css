@@ -33,6 +33,12 @@ body {
 .height_70 {
   height:70%;
 }
+.input {
+  color:#FFFFFF;
+  background-color:  rgba(246, 71, 71, 0);
+  border-color: #FFFFFF;
+  border-width: 2px;
+}
 
 /* Custom page header */
 .header {
@@ -182,12 +188,14 @@ body {
       max-width: 100%;
       padding: 20px 0px;
       background-color: rgba(246, 71, 71, .4);
+      overflow:auto;
     }
   }
   .container-full{
     width: 100%;
     background-color: rgba(246, 71, 71, .4);
     height:25%;
+    overflow:auto;
   }
 
   /*list color */
