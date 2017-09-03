@@ -249,4 +249,7 @@ body {
     margin-right: 5px;
     color: #F64747;
   }
+  a, a:hover {
+    color: #fff;
+  }
 }
